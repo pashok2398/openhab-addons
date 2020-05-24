@@ -115,14 +115,19 @@ Just follow the instructions in ["Connecting devices to the gateway"](#connectin
 ```
 Bridge mihome:bridge:f0b429XXXXXX "Xiaomi Gateway" [ serialNumber="f0b429XXXXXX", ipAddress="192.168.0.3", port=9898, key="XXXXXXXXXXXXXXXX", pollingInterval=6000 ] {
   Things:
-    gateway f0b429XXXXXX "Xiaomi Mi Smart Home Gateway" [itemId="f0b429XXXXXX"]
-    sensor_ht 158d0001XXXXXX "Xiaomi Temperature Sensor" [itemId="158d0001XXXXXX"]
-    sensor_weather_v1 158d0001XXXXXX "Xiaomi Aqara Temp, Hum and Press Sensor" [itemId="158d0001XXXXXX"]
-    sensor_motion 158d0001XXXXXX "Xiaomi Motion Sensor" [itemId="158d0001XXXXXX"]
-    sensor_plug 158d0001XXXXXX "Xiaomi Plug" [itemId="158d0001XXXXXX"]
-    sensor_magnet 158d0001XXXXXX "Xiaomi Door Sensor" [itemId="158d0001XXXXXX"]
-    sensor_switch 158d0001XXXXXX "Xiaomi Mi Wireless Switch" [itemId="158d0001XXXXXX"]
-    86sw2 158d0001XXXXXX "Aqara Wireless Wall Switch" [itemId="158d0001XXXXXX"]
+    gateway             f0b429XXXXXX    "Xiaomi Mi Smart Home Gateway"                          [itemId="f0b429XXXXXX"]
+    sensor_ht           158d0001XXXXXX  "Xiaomi Temperature Sensor"                             [itemId="158d0001XXXXXX"]
+    sensor_weather_v1   158d0001XXXXXX  "Xiaomi Aqara Temp, Hum and Press Sensor"               [itemId="158d0001XXXXXX"]
+    sensor_motion       158d0001XXXXXX  "Xiaomi Motion Sensor"                                  [itemId="158d0001XXXXXX"]
+    sensor_plug         158d0001XXXXXX  "Xiaomi Plug"                                           [itemId="158d0001XXXXXX"]
+    sensor_magnet       158d0001XXXXXX  "Xiaomi Door Sensor"                                    [itemId="158d0001XXXXXX"]
+    sensor_switch       158d0001XXXXXX  "Xiaomi Mi Wireless Switch"                             [itemId="158d0001XXXXXX"]
+    86sw1               158d0001XXXXXX  "Aqara Wirelss Light Control (1 Button)"                [itemId="158d0001XXXXXX"]
+    86sw2               158d0001XXXXXX  "Aqara Wirelss Light Control (2 Button)"                [itemId="158d0001XXXXXX"]
+    ctrl_neutral1       158d0001XXXXXX  "Aqara Wall Switch (1 Button)"                          [itemId="158d0001XXXXXX"]
+    ctrl_neutral2       158d0001XXXXXX  "Aqara Wall Switch (2 Button)"                          [itemId="158d0001XXXXXX"]
+    ctrl_ln1            158d0001XXXXXX  "Aqara Wall Switch (1 Button & without neutral line)"   [itemId="158d0001XXXXXX"]
+    ctrl_ln2            158d0001XXXXXX  "Aqara Wall Switch (2 Button & without neutral line)"   [itemId="158d0001XXXXXX"]
 }
 ```
 
